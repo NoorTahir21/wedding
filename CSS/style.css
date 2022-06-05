@@ -1,0 +1,828 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Rochester', cursive;
+  
+}
+p {
+  font-family: 'Poppins';
+  color: #777;
+  text-align: justify;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+vbar-light .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Poppins';
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-item li a {
+  padding: 20px;
+}
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+  font-family: 'Poppins';
+}
+.maincolor {
+  color: #fff;
+}
+.navbar {
+  background-color: #d291bc;
+}
+}
+
+.nav-link {
+  padding: 20px;
+  margin: 30px;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar-brand h5 {
+  display: inline-block;
+  font-family: 'Poppins';
+  color: #fff;
+}
+.centered {
+   position: absolute;
+   font-size: 3rem;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h3 {
+  font-size: 3rem;
+}
+
+.centered h6 {
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #d291bc;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Poppins';
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.top-left {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+}
+
+.about {
+  width: 100%;
+}
+.about h2 {
+  text-align: center;
+  font-size:4rem;
+  letter-spacing: 2px;
+  color: #d291bc;
+  
+}
+.about .col-md-7 h3 {
+  color: #d291bc;
+  text-align: center;
+  font-size:3em;
+}
+.about .col-md-7 p {
+   line-height: 0.8cm;
+   text-align: justify;
+}
+.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:rgba(0,0,0,0.4);
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+.countdown-container{
+  display:flex;
+}
+.big-text{
+  font-size:4rem;
+  color: #fff;
+  font-family: 'Poppins';
+}
+.title{
+  margin:10px;
+  text-align:center;
+  color:#fff;
+  width:100%;
+  letter-spacing:2px;
+  font-size: 3rem;
+  line-height: 5.5rem;
+}
+.title span{
+  display:block;
+  font-size:6rem;
+  letter-spacing:2rem;
+}
+.title h6 {
+  background-color: #fff;
+
+}
+.wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+  min-height:100vh;
+}
+.sub-heading {
+margin: 0px 20%;
+
+}
+.countdown-container > div{
+  margin:0 2rem;
+  text-align: center;
+  border:2px solid #fff;
+  padding:0px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  color:#fff;
+  min-width:150px;
+}
+@media (max-width:992px){
+  .countdown-container > div{
+    margin:0 1rem;
+  }
+}
+@media (max-width:767px){
+  .countdown-container{
+    flex-wrap: wrap;
+  }
+  .countdown-container > div{
+    margin:1rem auto;
+    max-width:150px;
+  }
+  .title{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin:10px 0px;
+  }
+  .title span{
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    text-align: center;
+  }
+}
+.timeline h1 {
+  font-size:3em;
+  color: #d291bc;
+  text-align: center;
+}
+.timeline .card {
+  background-color: #d291bc;
+  color: #fff;
+  border:2px dotted #fff;
+}
+.timeline .card h4 {
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+.timeline .card .card-title {
+  text-align: right;
+  color: #fff;
+}
+.timeline .card .card-body p{
+  line-height: 1cm;
+  color: #fff;
+  justify-content: center;
+}
+.messages h1 {
+  color: #d291bc;
+  font-size: 3rem;
+}
+.test {
+    font-family: "Rochester", sans-serif;
+  }
+  .test h2 {
+  color: #d291bc;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Rochester", sans-serif;
+  position: relative;
+  margin: 25px 0 50px;
+}
+.test h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #ffdc12;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+.test h6 {
+  text-align: center;
+  border:3px dotted #d291bc;
+  color: #d291bc;
+  margin: 15px 40%;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.carousel {
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.carousel .carousel-item {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 340px;
+}
+.carousel .carousel-item a {
+  color: #eb7245;
+}
+.carousel .img-box {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.carousel .testimonial {  
+  padding: 30px 0 10px;
+  line-height: 0.8cm;
+}
+.carousel .overview { 
+  text-align: center;
+  color: #d291bc;
+  padding-bottom: 5px;
+}
+.carousel .overview b {
+  color: #333;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block; 
+  padding-bottom: 5px;
+}
+.carousel .star-rating i {
+  font-size: 18px;
+  color: #ffdc12;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #999;
+  text-shadow: none;
+  top: 4px;
+}
+.carousel-control-prev i, .carousel-control-next i {
+  font-size: 20px;
+  margin-right: 2px;
+}
+.carousel-control-prev {
+  left: auto;
+  right: 40px;
+}
+.carousel-control-next i {
+  margin-right: -2px;
+}
+.carousel .carousel-indicators {
+  bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 11px;
+  height: 11px;
+  margin: 1px 5px;
+  border-radius: 50%;
+}
+.carousel-indicators li { 
+  background: #e2e2e2;
+  border: none;
+}
+.carousel-indicators li.active {    
+  background: #888;   
+}
+.family h2 {
+text-align: center;
+  font-size:4rem;
+  letter-spacing: 2px;
+  color: #d291bc;
+}
+.family h6 {
+  text-align: center;
+  border:3px dotted #d291bc;
+  color: #d291bc;
+  margin: 15px 30%;
+  font-family: 'Poppins';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+@media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem
+     }
+ }
+
+ .padding {
+     padding: 5rem
+ }
+
+ .family-card {
+    position: relative;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212,182,212,1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+
+ .family-card .family-card-body {
+        padding: 1rem 1rem;
+ }
+
+ .family-card-body {
+     flex: 1 1 auto;
+     padding: 1.25rem
+ }
+
+ .family-card-body p {
+     font-size: 0.875rem;
+     margin-bottom: .5rem;
+     line-height: 1.5rem
+ }
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+
+.media iframe,
+.media-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    border-radius: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(120, 120, 120, .1);
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.media-content:before {
+    content: '';
+    position: absolute;
+    height: 10%;
+    width: 90%;
+    left: 5%;
+    bottom: 0;
+    background: inherit;
+    background-position-y: 100%;
+    filter: blur(10px)
+}
+
+.circle .media-content:before {
+    width: 40%;
+    left: 30%
+}
+
+
+.profile-image{
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px;
+    border:10px solid #f0d9e8;
+}
+
+.family-card-body .card-title{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    color: #000;
+}
+.family-card-body .card-text {
+  text-align: center;
+  color: #777;
+}
+
+.venue h2 {
+  color: #d291bc;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Rochester", sans-serif;
+  position: relative;
+  margin: 25px 0 50px;
+}
+.venue .col-md-7 {
+  background-color: #eee;
+}
+.venue .col-md-7 h2 {
+color: #d291bc;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Rochester", sans-serif;
+  position: relative;
+  margin: 25px 0 50px;
+}
+.venue .col-md-7 h6 {
+   text-align: center;
+  border:3px dotted #d291bc;
+  color: #d291bc;
+  margin: 15px 40%;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+.venue .col-md-5 img {
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.venue .col-md-5 a {
+  text-decoration: none;
+  color: #d291bc;
+  font-weight: bold;
+}
+.venue .col-md-5 p {
+  line-height: 0.8cm;
+  text-align: justify;
+}
+.venue .col-md-5 button {
+  padding: 10px;
+  background-color: #fff;
+  color: #d291bc;
+  text-transform: uppercase;
+  font-weight: bold;
+  border:1px solid #d291bc;
+  font-family: 'Poppins';
+  margin: 10px;
+}
+
+.invitation .col-md-5 h2 {
+  color: #d291bc;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Rochester", sans-serif;
+  position: relative;
+  margin: 25px 0 50px;
+}
+.invitation .col-md-5 h6 {
+   text-align: center;
+  border:3px dotted #d291bc;
+  color: #d291bc;
+  margin: 15px 28%;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+ }
+ .contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+ } 
+ .contactus div .fa {
+  font-size: 28px;
+  color: #20c997;
+  margin:10px;
+  margin-right: 30px;
+ }
+ .contact-col div p {
+  padding: 0;
+  color: #999;
+ }
+ .contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight:400;  
+ }
+ .contact-col input, .contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 17px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+ }
+ .contact-col textarea {
+  font-size:16px;
+ }
+input::-webkit-input-placeholder {
+color: #fff !important;
+}
+textarea::-webkit-input-placeholder {
+  color: #fff !important;
+}
+ .invite-btn {
+  padding: 20px 25px;
+  background-color: #d291bc;
+  color: #fff;
+  text-transform: uppercase;
+  border:none;
+  border-radius: 5px;
+  font-family: 'Poppins';
+
+ }
+ .pinkbtn {
+  color: #fff;
+  background-color: #d291bc;
+  padding: 15px 20px;
+  font-family:'Rochester';
+  border-radius:5px;
+  border:none;
+ }
+ footer {
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  background-color: #d291bc;
+  color: #fff;
+  line-height: 1cm;
+ }
+ .links a {
+  text-decoration: none;
+  color: #777;
+ }
+ .services a {
+   text-decoration: none;
+  color: #777;
+ }
+ .copyright a {
+  text-decoration: none;
+  color: #fff;
+ }
+ .copyright {
+  color: #fff;
+ }
+ .aboutus {
+  padding: 15px;
+ }
+ .aboutus h2 {
+  color: #d291bc;
+  font-size: 3rem;
+ }
+ .aboutus p {
+  line-height: 0.8cm;
+  text-align: justify;
+ }
+.gallery h4 h2{
+  font-size: 3rem;
+}
+.gallery h1 {
+  font-size:4rem;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.main h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.gallery-row,
+.gallery-row > .gallery-column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.gallery-column {
+  float: left;
+  width: 33.33%;
+  display: none; 
+/* Hide all elements by default */
+}
+.gallery-column img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-column h4 {
+  text-align: center;
+  color: #000;
+  margin-top: 10px;
+}
+
+/* Clear floats after rows */ 
+.gallery-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.btn:hover {
+  background-color: #d291bc;
+  color: #fff;
+}
+
+.btn.active {
+  background-color: #d291bc;
+  color: white;
+}
+ header {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+}
+.bg img {
+   object-fit: cover;
+   opacity: 0.4;
+}
+.container legend {
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #EB771F;
+}
+.form-horizontal {
+  width: 85%;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  font-size: 20px;
+}
+#timer {
+  text-align: center;
+    font-size: 2.6em;
+    font-weight: 100;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+  background-size: cover;
+
+}
+
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 30px;
+    background: transparent;
+    border-radius: 10px;
+    border:2px dotted #fff;
+    margin: 30px;
+}
+#timer div span {
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+    font-size: .46em;
+    font-weight: 400;
+}
+.team .col-md-4 .card-title h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: 'Rochester';
+  text-transform: lowercase;
+}
+.team .col-md-4 .card-title p {
+  text-align: center;
+}
+.team .col-md-4 .fa {
+  font-size: 20px;
+  color: #d291bc;
+  padding: 8px;
+  text-align: center;
+  margin:0px 15px;
+}
+.team .col-md-4 img {
+  border-radius: 50%;
+}
+/*input[type="email"]:-moz-placeholder { /* Firefox 18- 
+color: blue !important;  
+}
+ 
+input[type="email"]::-moz-placeholder {  /* Firefox 19+ 
+color: blue !important;  
+}
+ 
+input[type="email"]:-ms-input-placeholder {  
+color: blue !important;  
+}*/
